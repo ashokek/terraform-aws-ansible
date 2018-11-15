@@ -1,4 +1,4 @@
-Terraform-aws-Ansible
+Terraform-AWS-Ansible
 
 This Terraform configuration provisions an EC2 instance in AWS VPC and Ansible playbook provision launches hello world docker image.
 
@@ -9,15 +9,8 @@ By default, this configuration provisions a Ubuntu 16.04 Base Image AMI (with ID
 Once you.ve defined all the required templates, make sure to set the AWS credentials variables as an envrionment variables.
 
 Initialization
-
 The first command to run for a new configuration -- or after checking out an existing configuration from version control -- is 
 
 $ terraform init
-
-Plans
-
 $ terraform plan
-
-Apply Changes
-
 $ terraform apply
